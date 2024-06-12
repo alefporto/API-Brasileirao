@@ -1,0 +1,20 @@
+{
+  "name": "api-brasileirao",
+  "version": "1.0.0",
+  "description": "Retorna a lista completa e atualizada dos times das Séries A, B, C e D do Campeonato Brasileiro de Futebol 2024! ⚽️",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
